@@ -13,6 +13,12 @@
 		048A57E6267F23BC0041D1FC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 048A57E4267F23BC0041D1FC /* Main.storyboard */; };
 		048A57E8267F23C90041D1FC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 048A57E7267F23C90041D1FC /* Assets.xcassets */; };
 		048A57EB267F23C90041D1FC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 048A57E9267F23C90041D1FC /* LaunchScreen.storyboard */; };
+		048A57F4267F29660041D1FC /* CoreDataStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048A57F3267F29660041D1FC /* CoreDataStack.swift */; };
+		048A57F8267F2AE80041D1FC /* DogWalk.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 048A57F6267F2AE80041D1FC /* DogWalk.xcdatamodeld */; };
+		048A57FE267F2BE10041D1FC /* Walk+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048A57FA267F2BE10041D1FC /* Walk+CoreDataClass.swift */; };
+		048A57FF267F2BE10041D1FC /* Walk+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048A57FB267F2BE10041D1FC /* Walk+CoreDataProperties.swift */; };
+		048A5800267F2BE10041D1FC /* Dog+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048A57FC267F2BE10041D1FC /* Dog+CoreDataClass.swift */; };
+		048A5801267F2BE10041D1FC /* Dog+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048A57FD267F2BE10041D1FC /* Dog+CoreDataProperties.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +30,12 @@
 		048A57E7267F23C90041D1FC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		048A57EA267F23C90041D1FC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		048A57EC267F23C90041D1FC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		048A57F3267F29660041D1FC /* CoreDataStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataStack.swift; sourceTree = "<group>"; };
+		048A57F7267F2AE80041D1FC /* DogWalk.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DogWalk.xcdatamodel; sourceTree = "<group>"; };
+		048A57FA267F2BE10041D1FC /* Walk+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Walk+CoreDataClass.swift"; sourceTree = "<group>"; };
+		048A57FB267F2BE10041D1FC /* Walk+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Walk+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		048A57FC267F2BE10041D1FC /* Dog+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Dog+CoreDataClass.swift"; sourceTree = "<group>"; };
+		048A57FD267F2BE10041D1FC /* Dog+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Dog+CoreDataProperties.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +52,10 @@
 		048A57D2267F23BC0041D1FC = {
 			isa = PBXGroup;
 			children = (
+				048A57FA267F2BE10041D1FC /* Walk+CoreDataClass.swift */,
+				048A57FB267F2BE10041D1FC /* Walk+CoreDataProperties.swift */,
+				048A57FC267F2BE10041D1FC /* Dog+CoreDataClass.swift */,
+				048A57FD267F2BE10041D1FC /* Dog+CoreDataProperties.swift */,
 				048A57DD267F23BC0041D1FC /* DogWalkCoreDataP3 */,
 				048A57DC267F23BC0041D1FC /* Products */,
 			);
@@ -59,6 +75,8 @@
 				048A57DE267F23BC0041D1FC /* AppDelegate.swift */,
 				048A57E0267F23BC0041D1FC /* SceneDelegate.swift */,
 				048A57E2267F23BC0041D1FC /* ViewController.swift */,
+				048A57F3267F29660041D1FC /* CoreDataStack.swift */,
+				048A57F6267F2AE80041D1FC /* DogWalk.xcdatamodeld */,
 				048A57E4267F23BC0041D1FC /* Main.storyboard */,
 				048A57E7267F23C90041D1FC /* Assets.xcassets */,
 				048A57E9267F23C90041D1FC /* LaunchScreen.storyboard */,
@@ -137,9 +155,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				048A5801267F2BE10041D1FC /* Dog+CoreDataProperties.swift in Sources */,
+				048A5800267F2BE10041D1FC /* Dog+CoreDataClass.swift in Sources */,
+				048A57FE267F2BE10041D1FC /* Walk+CoreDataClass.swift in Sources */,
+				048A57FF267F2BE10041D1FC /* Walk+CoreDataProperties.swift in Sources */,
 				048A57E3267F23BC0041D1FC /* ViewController.swift in Sources */,
 				048A57DF267F23BC0041D1FC /* AppDelegate.swift in Sources */,
 				048A57E1267F23BC0041D1FC /* SceneDelegate.swift in Sources */,
+				048A57F4267F29660041D1FC /* CoreDataStack.swift in Sources */,
+				048A57F8267F2AE80041D1FC /* DogWalk.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -341,6 +365,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		048A57F6267F2AE80041D1FC /* DogWalk.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				048A57F7267F2AE80041D1FC /* DogWalk.xcdatamodel */,
+			);
+			currentVersion = 048A57F7267F2AE80041D1FC /* DogWalk.xcdatamodel */;
+			path = DogWalk.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 048A57D3267F23BC0041D1FC /* Project object */;
 }
